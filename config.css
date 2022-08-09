@@ -8,14 +8,13 @@ font-size: 200%;
 }
 h2
 {
-color: rgb(110,100,110);
+color: rgb(200,100,110);
 font-style: normal;
-text-align: left;
+text-align: center;
 text-decoration: underline;
-font-size: 90%;
+font-size: 200%;
 word-spacing: 50;
 }
 body
 {background-color: rgb(127,255,212)}
-nav
-{color: rgb(56,45,90)}
+
