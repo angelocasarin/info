@@ -15,6 +15,15 @@ text-decoration: underline;
 font-size: 200%;
 word-spacing: 50;
 }
+h3
+{
+color: rgb(50,100,110);
+font-style: normal;
+text-align: center;
+font-size: 100%;
+word-spacing: 50;
+}
+
 body
 {background-color: rgb(127,255,212)}
 
