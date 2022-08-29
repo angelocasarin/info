@@ -34,6 +34,21 @@
 <h4>Conhecendo um pouco mais do colégio</h4>
 <p>O Colégio Estadual Cívico-militar localiza-se na Rua Dr. Marins Alves de Camargo, S/N, no distrito de Santa Margarida, no município de Bela Vista do Paraíso-Pr.</P>
 </div>
+<script>
+    var x = document.getElementById("demo");
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+    
+    function showPosition(position) {
+      x.innerHTML = "Latitude: " + position.coords.latitude +
+      "<br>Longitude: " + position.coords.longitude;
+    }
+    </script>
 <footer>Criado por Angelo</footer>
 </body>
 </html>
